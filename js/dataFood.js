@@ -80,7 +80,7 @@ export const dataFood = [
     name: "5pc Smoky Red Chicken",
     description: "5pc Smoky red grilled chicken",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K445.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4114.jpg",
     price: 4,
     quantity: 1,
   },
@@ -90,7 +90,7 @@ export const dataFood = [
     description:
       "4 Hot Wings, 2 Chicken Strips, Reg Popcorn, medium fires & Pepsi PET",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002162.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4123.jpg",
     price: 4,
     quantity: 1,
   },
@@ -99,7 +99,7 @@ export const dataFood = [
     name: "8 pc Hot & Crispy Chicken",
     description: "8 pc signature & crispy chicken",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K009.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4122.jpg",
     price: 6,
     quantity: 1,
   },
@@ -108,7 +108,7 @@ export const dataFood = [
     name: "6 pc hot & Crispy Chicken",
     description: "6 pc signature & crispy chicken",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K012.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4097.png",
     price: 6,
     quantity: 1,
   },
@@ -118,7 +118,7 @@ export const dataFood = [
     description:
       "Treat yourself with 1 Hot & crispy, 2 Strips, 2 Wings, 1 Buttered Bun, 1 Dip & Pepsi PET",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002164.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_3834.jpg",
     price: 3,
     quantity: 1,
   },
@@ -127,7 +127,7 @@ export const dataFood = [
     name: "Strips & Rice Combo",
     description: "4 Strips, 1 Dips, flavorful Rice & Gravy at a deal price",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002165.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4148.png",
     price: 4,
     quantity: 1,
   },
@@ -137,7 +137,7 @@ export const dataFood = [
     description:
       "3pc Hot & Cripsy, 3 Wings, 3 Strips, Large Popcorn & our new Dynamite Mayo Bottle",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002172.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4187.png",
     price: 8,
     quantity: 1,
   },
@@ -147,7 +147,7 @@ export const dataFood = [
     description:
       "Large portions of Biryani rice with 2 pc Hot & Crispy, 2 Gravies, 4 Strips & Pepsi PET",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002166.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_3833.jpg",
     price: 7,
     quantity: 1,
   },
@@ -157,7 +157,7 @@ export const dataFood = [
     description:
       "Large portions of Biryani rice with 2 pc Smoky Red, 2 Gravies, Med Popcorn & Pepsi PET",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002017.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4151.png",
     price: 8,
     quantity: 1,
   },
@@ -167,7 +167,7 @@ export const dataFood = [
     description:
       "Large portions of Biryani & Chicken Popcorn, 2 Spicy Gravies, 4pc Wings & Pepsi PET",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002052.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4150.png",
     price: 6,
     quantity: 1,
   },
@@ -176,7 +176,7 @@ export const dataFood = [
     name: "Classic Chicken Biryani Bucket ",
     description: "Large portions of Biryani & Chicken Popcorn, 2 Spicy Gravies",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K626.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4127.jpg",
     price: 4,
     quantity: 1,
   },
@@ -186,7 +186,7 @@ export const dataFood = [
     description:
       "Large portions of Biryani rice served with Chicken Popcorn, 2 Spicy Gravies",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K627.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4126.jpg",
     price: 3,
     quantity: 1,
   },
@@ -196,7 +196,7 @@ export const dataFood = [
     description:
       "Hyderabadi style Biryani rice served with Veg Patty & Spicy Gravy",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K622.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4184.png",
     price: 2,
     quantity: 1,
   },
@@ -206,7 +206,7 @@ export const dataFood = [
     description:
       "A Box with your favourites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002167.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4093.png",
     price: 3,
     quantity: 1,
   },
