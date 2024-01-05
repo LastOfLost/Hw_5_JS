@@ -1,0 +1,96 @@
+
+.item-area{
+    width: 300rem;
+    height: 400rem;
+    border: 1.5px solid #4444;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0rem 10rem 20rem 0rem #0006;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.item-property{
+}
+
+.item-title{
+    margin: 0rem;
+    top: 290rem;
+    color: #726363;
+    font-size: 24rem;
+    text-align: center;
+    text-decoration: red;
+    
+    /* font-family: Cambria; */
+    position: absolute;
+}
+
+.item-info{
+    color: #574e4e;
+    font-size: 20rem;
+    /* font-family: Georgia; */
+    position: absolute;
+    font-weight: 600;
+}
+
+.item-price{
+    color: #fff;
+    font-size: 20rem;
+    /* font-family: Georgia; */
+    position: absolute;
+    font-weight: 500;
+}
+
+.item-image{
+    width: 300rem;
+    height: 280rem;
+    position: absolute;
+    background-size: cover;
+}
+
+.item-buy-button{
+    top: 350rem;
+    width: 240rem;
+    height: 40rem;
+    background-color: rgb(212, 30, 30);
+    border-top: 1.5rem solid rgb(255, 150, 150);
+    border-right: 1.5rem solid rgb(205, 90, 90);
+    border-left: 1.5rem solid rgb(205, 90, 90);
+    border-bottom: 6rem solid rgb(159, 46, 46);
+    border-radius: 10rem;
+    position: absolute;
+}
+
+.item-buy-button:active{
+    margin-top: 5rem;
+    height: 35rem;
+    background-color: rgb(255, 79, 79);
+    border-top: 1.5rem solid rgb(255, 168, 168);
+    border-left: 1.5rem solid rgb(255, 135, 135);
+    border-right: 1.5rem solid rgb(255, 135, 135);
+    border-bottom: 1rem solid rgb(181, 62, 62);
+}
+
+.item-buy-button:hover{
+    box-shadow: 0rem -5rem 20rem 0rem #f005;
+}
+
+.item-line-1{
+    position: absolute;
+    top: 285rem;
+    height: 0rem;
+    width: 80%;
+    border: 2rem solid #ddd;
+    border-radius: 50%;
+}
+
+.item-line-2{
+    position: absolute;
+    top: 345rem;
+    height: 0rem;
+    width: 80%;
+    border: 2rem solid #ddd;
+    border-radius: 50%;
+}

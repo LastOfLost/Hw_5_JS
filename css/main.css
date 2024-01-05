@@ -1,0 +1,79 @@
+
+html{
+    font-size: 0.9px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    margin: 0rem;
+}
+
+p{
+    /* font-family: 'CeraCompactPro-Bold'; */
+}
+
+#background{
+    opacity: 0.8;
+    top: 0rem;
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    /* background-image: url('../img/Background_Spazio.png'); */
+}
+
+#list-menu{
+    margin-top: 220rem;
+    width: 60%;
+    height: auto;
+    justify-content: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40rem;
+}
+
+.center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 170rem;
+    background-color: white;
+    box-shadow: 0rem 40rem 110rem 30rem white;
+    z-index: 100;
+}
+
+.select-sort{
+
+}
+
+.logo{
+    position: absolute;
+    top: 20rem;
+    width: 140rem;
+    height: 140rem;
+    background-size: cover;
+    background-image: url("https://www.kfc-ukraine.com/admin/files/3190.svg");
+}
+
+.header-line{
+    position: absolute;
+    top: 170rem;
+    width: 30%;
+    height: 0rem;
+    border: 3rem solid #f00;
+    border-radius: 5rem;
+}
