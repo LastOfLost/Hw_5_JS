@@ -52,7 +52,7 @@ export const dataFood = [
     name: "Big 12",
     description: "Crispy Chicken, 6 Hot Wings & 2 dips",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000854.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_3749.jpg",
     price: 8,
     quantity: 1,
   },
@@ -62,7 +62,7 @@ export const dataFood = [
     description:
       "Bucket of 4pc Hot & crispy, 6 wings, 4 strips, 2 dips & Pepsi PET ",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000638.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4092.png",
     price: 6,
     quantity: 1,
   },
@@ -71,7 +71,7 @@ export const dataFood = [
     name: "Big 8",
     description: "Bucket of 4pc Hot & Crispy chicken & 4pc Smoky Red Chicken",
     image:
-      "https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000891.jpg?ver=21.41",
+      "https://www.kfc-ukraine.com/admin/files/medium/medium_4122.jpg",
     price: 6,
     quantity: 1,
   },
