@@ -28,17 +28,21 @@ const DataForming = function({name, description, image, price}){
     item_buy_button.appendChild(item_price);
     
     let item_line_1 = document.createElement('div');
-    item_line_1.classList.add('item-line-1');
+    item_line_1.classList.add('item-line');
     
     let item_line_2 = document.createElement('div');
-    item_line_2.classList.add('item-line-2');
+    item_line_2.classList.add('item-line');
+    
+    let title_area = document.createElement('div');
+    title_area.classList.add('title-area');
+    title_area.appendChild(item_line_1);
+    title_area.appendChild(item_title);
+    title_area.appendChild(item_line_2);
 
-    result.appendChild(item_title);
     result.appendChild(item_description);
     result.appendChild(item_image);
     result.appendChild(item_buy_button);
-    result.appendChild(item_line_1);
-    result.appendChild(item_line_2);
+    result.appendChild(title_area);
 
     result["my_property_price"] = price;
 
