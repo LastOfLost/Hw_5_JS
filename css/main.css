@@ -20,9 +20,9 @@ p{
     opacity: 0.8;
     top: 0rem;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     position: fixed;
-    /* background-image: url('../img/Background_Spazio.png'); */
+    pointer-events: none;
 }
 
 #list-menu{

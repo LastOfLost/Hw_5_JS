@@ -41,6 +41,7 @@
     /* font-family: Georgia; */
     position: absolute;
     font-weight: 500;
+    user-select: none;
 }
 
 .item-image{
