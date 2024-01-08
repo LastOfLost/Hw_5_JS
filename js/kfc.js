@@ -1,5 +1,26 @@
 import {dataFood} from './dataFood.js';
 
+
+const setInfoToextendedPanel = function(){
+
+    let parent = this.parentNode;
+    
+    let extended_name = document.getElementById('extended-title');
+    let extended_description = document.getElementById('extended-description');
+    let extended_price = document.getElementById('extended-price');
+    let extended_image = document.getElementById('extended-image');
+
+    extended_name.textContent = parent["my_property_name"];
+    extended_description.textContent = parent["my_property_description"];
+    extended_image.style.backgroundImage = `url(${parent["my_property_image"]})`;
+    extended_price.textContent = `Buy by ${parent["my_property_price"]}$`;
+
+    
+    let extended_general = document.querySelector('.extended-general');
+    extended_general.classList.remove('element-is-hide');
+};
+
+
 const DataForming = function({name, description, image, price}){
 
     let result = document.createElement('div');
@@ -26,6 +47,7 @@ const DataForming = function({name, description, image, price}){
     item_buy_button.classList.add('item-buy-button');
     item_buy_button.classList.add('center-content');
     item_buy_button.appendChild(item_price);
+    item_buy_button.addEventListener('click', setInfoToextendedPanel);
     
     let item_line_1 = document.createElement('div');
     item_line_1.classList.add('item-line');
@@ -45,6 +67,9 @@ const DataForming = function({name, description, image, price}){
     result.appendChild(title_area);
 
     result["my_property_price"] = price;
+    result["my_property_name"] = name;
+    result["my_property_description"] = description;
+    result["my_property_image"] = image;
 
     return result;
 };
@@ -59,4 +84,15 @@ const SortToLess = function(compareFunc, collection){
 let menu = document.getElementById('list-menu');
 dataFood.map(DataForming).forEach(element=>{
     menu.appendChild(element);
+});
+    
+let extended_general = document.querySelector('.extended-general');
+extended_general.addEventListener('click', function(event){
+    this.classList.add('element-is-hide');
+});
+
+
+let extended_area = document.querySelector('.extended-area');
+extended_area.addEventListener('click', function(event){
+    event.stopPropagation();
 });

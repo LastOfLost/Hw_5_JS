@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/item-menu.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/extended.css">
     <title>Hw_5_JS_KFC_MENU</title>
   </head>
 
@@ -16,11 +17,29 @@
     </header>
 
     <main>
-      <img id="background" src="https://img.freepik.com/premium-photo/white-marble-texture-background_36078-241.jpg?w=1800" alt="none"></img>
+      <img id="background" src="https://img.freepik.com/premium-photo/white-marble-texture-background_36078-241.jpg?w=1800" alt="none">
       <div id="list-menu" class="flex-container"></div>
+
+      <div class="extended-general center-content">
+        <div class="cancel-area center-content">
+          <div class="cancel-icon-1"></div>
+          <div class="cancel-icon-2"></div>
+        </div>
+        <div class="extended-area">
+          <div id="extended-image-area" class="extended-image-area">
+           <div id="extended-image" class="extended-image"></div>
+          </div>
+          <button class="extended-buy-button center-content">
+            <p id="extended-price" class="extended-price"></p>
+          </button>
+          <p id="extended-title" class="extended-title"></p>
+          <div class="extended-line"></div>
+          <p id="extended-description" class="extended-description"></p>
+        </div>
+      </div>
     </main>
 
     <script src="./js/kfc.js" type="module"></script>    
   </body>
 
-  </html>
+</html>

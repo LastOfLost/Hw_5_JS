@@ -11,11 +11,6 @@ main{
 body{
     margin: 0rem;
 }
-
-p{
-    /* font-family: 'CeraCompactPro-Bold'; */
-}
-
 #background{
     opacity: 0.8;
     top: 0rem;
@@ -54,10 +49,6 @@ header{
     background-color: white;
     box-shadow: 0rem 40rem 110rem 30rem white;
     z-index: 100;
-}
-
-.select-sort{
-
 }
 
 .logo{
