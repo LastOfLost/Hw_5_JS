@@ -63,8 +63,8 @@ const DataForming = function({name, description, image, price}){
 
     result.appendChild(item_description);
     result.appendChild(item_image);
-    result.appendChild(item_buy_button);
     result.appendChild(title_area);
+    result.appendChild(item_buy_button);
 
     result["my_property_price"] = price;
     result["my_property_name"] = name;
